@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 0 10%;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 826px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .main {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+.dropdown-menu {
+  height: auto;
+  max-height: 400px;
+  overflow-x: hidden;
+}
+
+.dropdown-menu img {
+  max-width: 200px;
+  max-height: 40px;
+}
+
+.main {
+  width: 740px;
+  margin: 0 auto;
+  padding-bottom: 65px;
+}
+
+.main .title {
+  margin: 20px 0 14px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e7eb;
+}
+
+.main .title h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.main .article-title1-box {
+  width: 100%;
+  height: 50px;
+  margin: 50px 0;
+  position: relative;
+  text-align: center;
+}
+
+.main .article-section .title-text {
+  font-size: 18px;
+  text-align: center;
+  margin: -5px 0;
+}
+
+.point {
+  width: 15px;
+  height: 0px;
+  line-height: 0;
+  display: inline-block;
+  border-top: 2px solid rgb(0, 176, 240);
+  color: rgb(0, 176, 240);
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.flip {
+  transform: rotateX(180deg);
+}
+
+.article-main {
+  color: rgba(135, 85, 97, 0.568627);
+  border-top: 1px solid rgba(135, 85, 97, 0.4);
+  border-bottom: 1px solid rgba(135, 85, 97, 0.4);
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.main .article-footer {
+  margin: 50px 10px;
+}
+
+.main .article-footer .footer-box {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background-color: #7779FF;
+}
+
+.main .article-footer .footer-box .triangle {
+  width: 0;
+  height: 0;
+  border-width: 15px 10px 15px 10px;
+  border-style: solid;
+  border-color: #7779FF transparent transparent #7779FF;
+  position:absolute;
+  margin-left:50px;
+}
+.alert-success {
+  width: 300px;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  background-color: #398439;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+.alert-success .fa-check {
+  font-size: 28px;
+  margin-left: 5px;
+}
+.required{
+  color:red;
+  display: none;
+}
+.remind{
+  color:red;
+}
+
+

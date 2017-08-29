@@ -1,0 +1,7 @@
+{
+  "data":[
+    {"novelSite":"万读","count":20,"recharge":1000,"scale":0.9,"bill":900,"status":0},
+    {"novelSite":"天天","count":10,"recharge":2000,"scale":0.9,"bill":1800,"status":1},
+    {"novelSite":"xx","count":10,"recharge":2000,"scale":0.9,"bill":1800,"status":2}
+  ]
+}

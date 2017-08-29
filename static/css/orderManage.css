@@ -1,0 +1,39 @@
+.page-content .pager-summary{
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 77px;
+  vertical-align: bottom;
+}
+.page-content .pager-summary em{
+  font-style: normal;
+}
+.btn{
+  border-width: 1px;
+}
+.blueText{
+  color: #337ab7;
+  cursor: pointer;
+}
+#orderStatus, #novelStation{
+  position: relative;
+}
+.selectBox{
+  display: none;
+  width: 100%;
+  min-width:100px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: #fff;
+  z-index:10;
+  position: absolute;
+  top:35px;
+  left:0;
+  padding:5px 10px;
+  text-align: left;
+}
+.selectBox label{
+  display: block;
+}
+.displayBlock{
+  display: block;
+}

@@ -1,0 +1,131 @@
+/**
+ * Created by 昏睡 on 2017/8/23.
+ */
+$(function () {
+  var href = window.location.href;
+  var id = href.split("?")[1];
+  console.log(id);
+  $('#from-date-picker').datetimepicker({format: 'YYYY-MM-DD'});
+  $('#to-date-picker').datetimepicker({format: 'YYYY-MM-DD'});
+  //通过参数id筛选数据
+  $.ajax({
+    url: "../json/orderTable.json",
+    type: "get",
+    data: {id: id},
+    success: function (data) {
+      //根据获得的数据填充title
+      var title = "渠道";
+      $(".pageTitle").html(title+" - 订单管理");
+      $("#orderTable").dataTable({
+        ajax: "../json/orderTable.json",
+        "columns": [
+          {
+            "data": "td1",
+            "render": function (data, type, full, meta) {
+              return "<p class='blueText'>" + data + "</p>"
+            }
+          },
+          {"data": "td2"},
+          {
+            "data": "td3",
+            "render": function (data, type, full, meta) {
+              return "<p class='blueText'>" + data + "</p>"
+            }
+          },
+          {
+            "data": "td4",
+            "render": function (data, type, full, meta) {
+              return "￥" + data;
+            }
+          },
+          {"data": "td5"},
+          {
+            "data": "td6",
+            "render": function (data, type, full, meta) {
+              if (data == "待支付") {
+                return "<span class='daizhifu'>" + data + "<span>";
+              } else if (data == "已支付") {
+                return "<span class='yizhifu'>" + data + "<span>";
+              }
+              //return "<span><span>";
+            }
+          },
+          {"data": "td7"},
+          {"data": "td8"}
+        ],
+        paging: false,
+        filter: false,
+        lengthChange: false,
+        info: false,
+        sort: false,
+        "oLanguage": {
+          "sProcessing": "正在加载中......",
+          "sLengthMenu": "每页显示 _MENU_ 条记录",
+          "sZeroRecords": "对不起，查询不到相关数据！",
+          "sEmptyTable": "表中无数据存在！",
+          "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录",
+          "sInfoFiltered": "数据表中共为 _MAX_ 条记录",
+          "sSearch": "搜索",
+          "oPaginate": {
+            "sFirst": "首页",
+            "sPrevious": "上一页",
+            "sNext": "下一页",
+            "sLast": "末页"
+          }
+        },
+        "buttons": [
+          {
+            dom: 'Bfrtip',
+            'extend': 'excel',
+            'text': '导出',//定义导出excel按钮的文字
+            'exportOptions': {
+              'modifier': {
+                'page': 'current'
+              }
+            }
+          }
+        ],
+        //dom: 'Bfrtip',
+        //buttons: [ {
+        //  extend: 'excelHtml5',
+        //  customize: function( xlsx ) {
+        //    var sheet = xlsx.xl.worksheets['sheet1.xml'];
+        //
+        //    $('row c[r^="C"]', sheet).attr( 's', '2' );
+        //  }
+        //} ],
+        fnInitComplete: function (settings, json) {
+          console.log(json);
+        }
+      });
+      var page = Math.ceil(data.total / 20);//计算总共多少页
+      $(".pager-summary em").eq(0).html(data.total);
+      $(".pager-summary em").eq(2).html(page);
+
+      //动态添加分页按钮
+      for (var i = 0; i < page; i++) {
+        if (i == 0) {
+          $(".pagination li:last-child").before('<li class="active"><a href="#">' + (i + 1) + '</a></li>');
+          $(".pagination li:first-child").addClass("disabled");
+          if (page == 1) {
+            $(".pagination li:last-child").addClass("disabled");
+          }
+        } else {
+          $(".pagination li:last-child").before('<li><a href="#">' + (i + 1) + '</a></li>');
+        }
+      }
+
+      //订单状态筛选
+      $("#orderStatus,#novelStation").hover(function () {
+        $(this).find(".selectBox").toggleClass("displayBlock");
+      })
+
+      //订单状态改变时触发事件
+      $("input[name='orderStatus']").change(function () {
+        $('input:checkbox[name=orderStatus]:checked').each(function (i, v) {
+          console.log($(v).val());
+        })
+      })
+    }
+  })
+})

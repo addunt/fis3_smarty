@@ -1,0 +1,12 @@
+{
+  "data":[
+    {"applyTime":"2017-08-07 10：00","playTime":"2017-08-08 11：00","cash":3000,"status":1,"mark":"无"},
+    {"applyTime":"2017-08-06 10：00","playTime":"2017-08-06 11：00","cash":4000,"status":0,"mark":"无"},
+    {"applyTime":"2017-08-05 10：00","playTime":"2017-08-05 11：00","cash":5000,"status":0,"mark":"无"},
+    {"applyTime":"2017-08-04 10：00","playTime":"2017-08-04 11：00","cash":2000,"status":0,"mark":"无"},
+    {"applyTime":"2017-08-03 10：00","playTime":"2017-08-03 11：00","cash":3300,"status":0,"mark":"无"},
+    {"applyTime":"2017-08-02 10：00","playTime":"2017-08-02 11：00","cash":2300,"status":0,"mark":"无"},
+    {"applyTime":"2017-08-01 10：00","playTime":"2017-08-01 11：00","cash":1400,"status":0,"mark":"无"}
+  ],
+  "total": 7
+}

@@ -1,0 +1,24 @@
+.page-content .pager-summary {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 77px;
+  vertical-align: bottom;
+}
+
+.page-content .pager-summary em {
+  font-style: normal;
+}
+
+.btn {
+  border-width: 1px;
+}
+
+/*账单明细*/
+.billHeader {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.billHeader span{
+  margin-right: 10px;
+}

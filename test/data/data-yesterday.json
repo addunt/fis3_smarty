@@ -1,0 +1,11 @@
+{"date":"2017-08-20",
+ "paid_amount":50,
+ "welth_order_paid_amount":50,
+ "welth_order_paid_count":1,
+ "welth_order_unpaid_count":0,
+ "welth_order_completion_rate":1,
+ "vip_order_paid_amount":0.00,
+ "vip_order_paid_count":0,
+ "vip_order_unpaid_count":0,
+ "vip_order_completion_rate":0
+}

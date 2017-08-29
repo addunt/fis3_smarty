@@ -1,0 +1,116 @@
+<?php
+$fis_data = array(
+    'assets_url' => '/static/smarty_demo',
+    'base_url' => '/smarty_demo/page',
+    "user_info" => array(
+        "name" => '菠萝菠萝蜜',
+        "avatar" => 'https://img.lanjinger.com/user_pic/12550_0DBDEBEFDAB3FDF11F120ADBB99D3E8F.@!face-big',
+    ),
+    "page_name" => "订单管理",
+    'data' => array(
+        'title' => 'fis3-smarty demo',
+        'index' => 4,
+        "total" => 80,
+        "page_total" => 7,
+        "page_size" => 10,
+        "page" => 1,
+        'data' => array(
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+            array(
+                "book_id" => "001",
+                "book_src" => "https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+                "book_type" => "总裁",
+                "book_name" => "恶魔索爱",
+                "book_complete_state" => "已完结",
+                "book_chapter" => 1180,
+                "book_attention_from" => 1,
+                "book_state" => "已上架",
+                "book_gender" => "女频",
+                "book_hot_level" => 133
+            ),
+        ),
+    ),
+);

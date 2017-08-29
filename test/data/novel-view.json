@@ -1,0 +1,172 @@
+{
+	"book_id":"001",
+	"book_src":"https://ommdq027l.qnssl.com/novels/14923344739248.jpg?imageView2/0/w/300/q/75",
+	"book_name":"恶魔索爱",
+	"book_chapter_num":1180,
+	"book_worlds_count":200000,
+	"book_introduce":"a“你不过是我花钱买来的，还想守身如玉？” 他是黑白两道闻风丧胆的枭雄，冷酷无情，人人口中的恶魔。",
+	"book_chapters":[
+		{
+			"chapter_id":1,
+			"chapter_name":"第一章 只是个替身",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":true,
+			"get_links":true
+		},{
+			"chapter_id":2,
+			"chapter_name":"第二章 只是个替身",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":true,
+			"get_links":true
+		},{
+			"chapter_id":3,
+			"chapter_name":"第三章 只是个替身",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":true,
+			"get_links":true
+		},{
+			"chapter_id":4,
+			"chapter_name":"第四章 只是个替身",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":true,
+			"get_links":true
+		},{
+			"chapter_id":5,
+			"chapter_name":"第⑤章 只是个替身",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":true,
+			"get_links":true
+		},
+		{
+			"chapter_id":6,
+			"chapter_name":"第6章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":7,
+			"chapter_name":"第7章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":8,
+			"chapter_name":"第8章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":9,
+			"chapter_name":"第9章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":10,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":11,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":12,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":13,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":0,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":14,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":50,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":15,
+			"chapter_name":"第10章 给他机会",
+			"chaper_content":"",
+			"is_free":true,
+			"notfree_diamonds_num":10,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":16,
+			"chapter_name":"第16章 想要自由",
+			"chaper_content":"",
+			"is_free":false,
+			"notfree_diamonds_num":30,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":17,
+			"chapter_name":"第17章 想要自由",
+			"chaper_content":"",
+			"is_free":false,
+			"notfree_diamonds_num":24,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":18,
+			"chapter_name":"第18章 想要自由",
+			"chaper_content":"",
+			"is_free":false,
+			"notfree_diamonds_num":24,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":19,
+			"chapter_name":"第19章 想要自由",
+			"chaper_content":"",
+			"is_free":false,
+			"notfree_diamonds_num":24,
+			"create_docs":false,
+			"get_links":false
+		},{
+			"chapter_id":20,
+			"chapter_name":"第20章 想要自由",
+			"chaper_content":"",
+			"is_free":false,
+			"notfree_diamonds_num":24,
+			"create_docs":false,
+			"get_links":false
+		}
+	]
+}

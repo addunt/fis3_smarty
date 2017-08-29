@@ -1,0 +1,72 @@
+.btn-primary {
+  border-width: 1px !important;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.blueText {
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.grayText {
+  color: darkgray;
+}
+
+.fa-copy {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.alert-success {
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  background-color: #398439;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.alert-success .fa-check {
+  font-size: 28px;
+  margin-left: 5px;
+}
+
+.btn {
+  border-width: 0;
+  margin-right: 5px;
+}
+
+.required {
+  color: red;
+  display: none;
+}
+
+.form-control-static {
+  padding-top: 4px;
+}
+
+.modal-body {
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.remind {
+  color: red;
+  font-weight: bold;
+}
+
+.caret {
+  margin: 0 !important;
+}

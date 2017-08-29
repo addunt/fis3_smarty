@@ -1,0 +1,49 @@
+.table {
+  max-width: 400px;
+}
+
+.tab-content.no-border {
+  padding: 30px 0 0 0;
+}
+
+.required {
+  color: red;
+  display: inline-block;
+  margin: 5px 0 0 10px;
+}
+
+.btn {
+  border-width: 1px;
+}
+
+.remind {
+  color: red;
+  margin-top: 10px;
+}
+
+.blueText {
+  color: #337ab7;
+  cursor: pointer;
+}
+.alert-success {
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  background-color: #398439;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.alert-success .fa-check {
+  font-size: 28px;
+  margin-left: 5px;
+}
+
+.grayText {
+  margin-top:10px;
+  color: #737373;
+}

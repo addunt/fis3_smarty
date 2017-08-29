@@ -1,0 +1,31 @@
+.page-content .notice{
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+.page-content .notice a{
+  text-decoration: none;
+}
+.page-content .notice .NEW{
+  padding: 0 4px;
+  background: orangered;
+  color: white;
+  font-size: 10px;
+}
+.page-content .pager-summary{
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 77px;
+  vertical-align: bottom;
+}
+.page-content .pager-summary em{
+  font-style: normal;
+}
+.modal-body{
+  line-height: 28px;
+  font-size: 14px;
+}

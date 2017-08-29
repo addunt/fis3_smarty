@@ -1,0 +1,8 @@
+{
+  "data":[
+    {"date":"2017-08-08","count":123,"recharge":"30.00","bill":"27.00","status":1,"id":1},
+    {"date":"2017-08-07","count":43,"recharge":"50.00","bill":"47.00","status":1,"id":2},
+    {"date":"2017-08-06","count":23,"recharge":"80.00","bill":"69.00","status":1,"id":3},
+    {"date":"2017-08-05","count":45,"recharge":"90.00","bill":"89.00","status":1,"id":4}
+  ]
+}
